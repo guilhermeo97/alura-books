@@ -12,7 +12,9 @@
     --azul-escuro: #002F52;
     --azul-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans";
     --sombra-preto: rgb(0, 0, 0, 0.25);
+    --preto: #000;
 }
 
 body {
