@@ -15,7 +15,7 @@
     margin: 1em 0;
 }
 
-.baner__pesquisa {
+.banner__pesquisa {
     background: transparent;
     color: var(--branco);
     border: 1px solid var(--branco);
@@ -25,7 +25,7 @@
     outline: none;
 }
 
-.baner__pesquisa::placeholder{
+.banner__pesquisa::placeholder{
     background: url("../Imagens/lupa-buscar.svg") no-repeat;
     background-position: 1em;
     font-family: var(--fonte-principal);
@@ -33,4 +33,18 @@
     font-weight: 400;
     text-align: center;
     color: var(--branco);
+}
+
+@media screen and (min-width: 1024px) {
+    .banner___titulo {
+        font-size: 36px;
+    }
+
+    .banner__pesquisa {
+        width: 50%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 6em;
+    }
 }
